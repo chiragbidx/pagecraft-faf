@@ -1,0 +1,26 @@
+/* Make logo white */
+.navbar-brand img,
+.footer_logo img {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* Set proper logo sizes */
+.navbar-brand img {
+    height: 45px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+}
+
+.footer_logo {
+    width: 140px;
+}
+
+.footer_logo img {
+    width: 100%;
+    height: auto;
+    max-height: 50px;
+    object-fit: contain;
+}
+
